@@ -32,7 +32,8 @@ class HelloController extends Controller
         return ExitCode::OK;
     }
 
-    public function actionTestOne($message = 'Test one')
+
+    public function actionTestTwo($message = 'Test two')
     {
         echo $message . "\n";
 
